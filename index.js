@@ -33,7 +33,6 @@ class Passenger {
     store.passengers.push(this);
   }
   trips() {
-debugger;
     return store.trips.filter(
       function(trip) {
         return this.passengerId === this.id;
