@@ -18,6 +18,7 @@ class Driver {
     );
   }
   passengers() {
+    debugger;
     return this.trips().filter(
       function(passenger) {
         return this.passengerId === passenger.id;
