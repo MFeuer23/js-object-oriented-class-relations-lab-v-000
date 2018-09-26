@@ -19,8 +19,7 @@ class Driver {
   }
   passengers() {
     return this.trips().filter(
-      x => x.passengerId == passenger.id
-
+      x => x.passengerId 
     );
   }
 }
