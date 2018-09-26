@@ -19,7 +19,9 @@ class Driver {
   }
   passengers() {
     return this.trips().filter(
-    x => x.passengerId
+      function(trip) {
+        return trip.passengerId;
+      }
     );
   }
 }
