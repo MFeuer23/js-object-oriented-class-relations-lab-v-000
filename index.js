@@ -21,6 +21,7 @@ class Driver {
     return store.passengers.filter(
       function(passenger) {
         return this.trips().filter(x => x.passengerId)
+      }.bind(this)
     );
   }
 }
