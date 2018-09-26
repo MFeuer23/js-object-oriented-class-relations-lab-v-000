@@ -18,7 +18,6 @@ class Driver {
     );
   }
   passengers() {
-    debugger;
     return this.trips().filter(
     x => x.passengerId
     );
